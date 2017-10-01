@@ -1,0 +1,27 @@
+{
+  "name": "vscode-typescript-starter",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "author": {
+    "email": "nils@nilshartmann.net",
+    "name": "Nils Hartmann",
+    "url": "https://nilshartmann.net"
+  },
+  "description": "A simple starter workspace for TypeScript Development with Visual Studio code",
+  "keywords": ["visual studio code", "typescript", "javascript", "vscode", "starter kit"],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "clean": "rimraf dist/",
+    "prettier": "prettier --print-width 130 --write \"{src}/**/*.{js,jsx,ts,tsx}\""
+  },
+  "devDependencies": {
+    "prettier": "^1.7.3",
+    "rimraf": "^2.6.2",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "tslint": "^5.7.0"
+  }
+}
