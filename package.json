@@ -9,17 +9,24 @@
     "url": "https://nilshartmann.net"
   },
   "description": "A simple starter workspace for TypeScript Development with Visual Studio code",
-  "keywords": ["visual studio code", "typescript", "javascript", "vscode", "starter kit"],
+  "keywords": [
+    "visual studio code",
+    "typescript",
+    "javascript",
+    "vscode",
+    "starter kit"
+  ],
   "scripts": {
     "build": "tsc",
+    "watch": "tsc --watch",
     "start": "node dist/main.js",
     "clean": "rimraf dist/",
-    "prettier": "prettier --print-width 130 --write \"{src}/**/*.{js,jsx,ts,tsx}\""
+    "prettier": "prettier --write \"{src}/**/*.{js,jsx,ts,tsx}\""
   },
   "devDependencies": {
-    "prettier": "^1.7.3",
+    "prettier": "^1.11.0",
     "rimraf": "^2.6.2",
-    "typescript": "^2.5.3"
+    "typescript": "^2.7.2"
   },
   "dependencies": {
     "tslint": "^5.7.0"

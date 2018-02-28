@@ -1,7 +1,7 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
-  "prettier.printWidth": 130,
   "files.exclude": {
-    "dist/**": true
+    "dist/**": true,
+    "node_modules/": true
   }
 }
